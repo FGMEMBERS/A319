@@ -1,0 +1,52 @@
+Diferenças entre aeronaves em pixels:
+
+54 px atras
+45 px frente
+
+Tamanho do A320 em pixels : 672 px
+
+A320 do FG : 37.51 m.
+
+Remover atrás
+=============
+
+54/672 = x/37.51
+	x = 3.014196428 m
+
+	
+Remover na frente
+=================
+	
+45/672 = x/37.51
+	x = 2.511830357 m 
+
+O modelo original gerou erro, então vou compensei os erros proporcionalmente nos dois lados e deixar o tamanho perfeito, digo, matematicamente coerente.
+
+O Erro
+======
+
+Diferença de tamanho : 33.84 - 31.98 = 1.86 m (erro)
+
+A Correção :
+
+Adicionar na frente
+===================
+
+2.511830357 / (2.511830357 + 3.014196428 ) * (1.86) = 0.8454545454 m
+
+Adicionar atrás
+===============
+
+3.014196428 / (2.511830357 + 3.014196428 ) * (1.86)  = 1.014545454 m
+
+Ajuste real :
+
+Remover atrás
+=============
+
+3.014196428 - 1.014545454 = 1.999650974 m
+
+Remover na frente
+=================
+
+2.511830357 - 0.8454545454 = 1.666375811 m

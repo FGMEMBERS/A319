@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+			<livery>
+				<name type="string">TAP Air Portugal</name>
+				<texture>A319fuselagem.png</texture>
+			</livery>
+			<!--
+			<miscelania>
+				<name type="string">Default</name>
+				<texture>O_NOME_DO_AVIAOmisc.png</texture>
+			</miscelania>
+
+			<wings>
+				<name type="string">Default</name>
+				<texture>O_NOME_DO_AVIAOwings.png</texture>
+			</wings>        
+			<logolight>
+				<name type="string">Default</name>
+				<texture>O_NOME_DO_AVIAOnight.png</texture>
+			</logolight>
+			-->
+    </model>
+</sim>
+</PropertyList>
