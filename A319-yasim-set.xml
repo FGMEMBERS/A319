@@ -5,7 +5,8 @@
 		<description>Airbus A319 (YASim)</description>
 		<!-- Isaias Prestes : XML -set adjustments, 3d model, animations, lights, resize. -->
 		<!-- Michel Maia : XML -set adjustments, reversors -->
-		<author>Isaias V. Prestes, Michel Maia</author>
+		<!-- Jonathan Redpath : Splash Screens -->
+		<author>Isaias V. Prestes, Michel Maia, Jonathan Redpath</author>
 		<status>beta</status>
 
 		<flight-model>yasim</flight-model>
@@ -62,7 +63,7 @@
 
 		<!-- Definicoes para splash screen -->
 		<startup>
-			<splash-texture>Aircraft/A319/splash.png</splash-texture>
+			<splash-texture>Aircraft/A319/Splash/splash.png</splash-texture>
 		</startup>
 
 

@@ -138,7 +138,7 @@
 	</offsets>
 </model>
 
-<!-- Serviço de solo -->
+<!-- Servico de solo -->
 <model>
 	<name>ServiceSolo</name>
 	<path>Aircraft/A319/Models/Service/service.xml</path>
